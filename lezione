@@ -1,0 +1,18 @@
+<?php
+
+$a = 5;
+$b = 10;
+$c = 12;
+
+function sum($num1, $num2)
+{
+    $sum = $num1 + $num2;
+    return $sum;
+    echo "La somma è: $sum \n";
+}
+
+$sum1 = sum($a, $b);
+$sum2 = sum($b, $c);
+$sum3 = sum(sum($sum1, $sum2), $c);
+echo "La somma totale è: $sum3 \n";
+
