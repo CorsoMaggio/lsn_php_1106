@@ -14,21 +14,15 @@ for ($i = 1; $i <= 30; $i++) {
     if ($i % 3 === 0) {
     }
 }
-echo "PHP \n"; 
-    else {
-  if ($i % 5 === 0) {
-    }
-}
-echo "JAVASCRIPT \n"; 
-    else {
-        if ($i % 15 === 0) {
-    }
+   
+if ($i % 5 === 0) {
+    echo "PHP \n";
+}elseif ($i % 15 === 0) {
+    echo "JAVASCRIPT \n"; }
+
+else {
+   
     echo "LEYSAN \n";
-    };
-    
-
-
-
-
+};
 
 ?>
